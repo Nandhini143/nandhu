@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
-	char a;
-	cout<<"enetr the char \n";
+int a;
+	cout<<"enetr the value ";
 	cin>>a;
-	if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
-	{		cout<<"vowel";
-	}
-	else 
+	if(a%2==0)
 	{
-		cout<<"consonant";
+		cout<<"even";
 	}
-		return 0;
+	else
+	{
+		cout<<"odd";
+	}
+	return 0;
 	}
