@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-int num,a,z;
+int n,a,z;
 cout<<"enter the numeric values:";
-cin>>num;
-if(num<a||num>z)
+cin>>n;
+if(n<a||n>z)
 {
   cout<<"yes,it is numeric";
 }
