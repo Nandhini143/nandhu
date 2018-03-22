@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 int main()  {
-	int i,num,fact=1;
+	int i,n,fact=1;
 	cout<<"Enter a number\n";
-	cin>>num;
-	for(i=1;i<=num;i++)
+	cin>>n;
+	for(i=1;i<=n;i++)
 	{
 		fact*=i;
 	}
 	cout<<fact;
-	return 0;
-}
+	return 0; }
